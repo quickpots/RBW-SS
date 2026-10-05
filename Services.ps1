@@ -28,7 +28,11 @@ $services = @(
     "BAM",
     "EventLog",
     "WSearch",
-    "DusmSvc"
+    "DusmSvc",
+    "BFE",
+    "AppInfo",
+    "DCOMLaunch",
+    "PlugPlay"
 )
 
 $TableServices = foreach ($service in $services) {
